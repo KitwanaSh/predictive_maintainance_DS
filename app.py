@@ -11,7 +11,7 @@ with open("rf_model.pkl", "rb") as f:
     rf_model = pickle.load(f)
 
 importance_df = pd.read_csv("feature_importances.csv")
-X_test = pd.read_csv("X_test.csv")
+X_test = pd.read_csv("x_test.csv")
 
 # Title and Introduction
 st.title("Predictive Maintenance Dashboard")
